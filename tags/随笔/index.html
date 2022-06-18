@@ -70,6 +70,8 @@
     			
             
     			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
             
 		</nav>
 		<nav class="header-nav">
@@ -82,22 +84,19 @@
 			</div>
 		</nav>
 
-    <nav class="header-nav">
-      <div class="social">
-          
-              <a class="github" target="_blank" href="https://github.com/lnetx" title="github"><i class="icon-github"></i></a>
-          
-              <a class="bilibili" target="_blank" href="https://space.bilibili.com/388397895/article" title="bilibili"><i class="icon-bilibili"></i></a>
-          
-      </div>
+    <div style="margin-top: 100px;">
+      新年都未有芳华，<br>二月初惊见草芽。<br>白雪却嫌春色晚，<br>故穿庭树作飞花。
+    </div>
 
-      <!--音乐播放插件-->
-      <div style="margin-top:50px;">
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=240 height=52 src="//music.163.com/outchain/player?type=2&id=33035954&auto=1&height=32"></iframe>
-      </div>
-  </nav>
 
-	</header>
+    <!-- 网易云音乐插件 -->
+    
+      <div style="position:absolute; margin-top: 50px; left:auto; width:85%">
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="52" src="//music.163.com/outchain/player?type=2&id=1334445174&auto=1&height=32"></iframe>
+      </div>
+    
+
+  </header>
 </div>
 
     </div>
@@ -184,37 +183,6 @@
       
 
       
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>你的赏识是我前进的动力<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/reward/alipay.jpg">
-                      <span class="reward-type">支付宝</span>
-                    </div>
-                    
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/reward/wechat.jpg">
-                      <span class="reward-type">微信</span>
-                    </div>
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
     </div>
     <div class="article-info article-info-index">
       
@@ -238,14 +206,8 @@
           <a class="weibo share-sns" href="javascript:;" data-type="weibo">
             <i class="icon icon-weibo"></i>
           </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
           <a class="qq share-sns" href="javascript:;" data-type="qq">
             <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
           </a>
         </div>
       </div>
@@ -290,16 +252,14 @@
 
 
   
+  
+  
 
   
 
   
 
   
-
-  
-  
-
 
 
           </div>
@@ -312,7 +272,7 @@
     		&copy; 2022 雪野无尘
     	</div>
       	<div class="footer-right">
-			A contented mind is the greatest blessing a man can enjoy in this world
+      		A contented mind is the greatest blessing a man can enjoy in this world
       	</div>
     </div>
   </div>
@@ -372,6 +332,8 @@ MathJax.Hub.Queue(function() {
       
     
       
+      
+      
     
     
 
@@ -383,6 +345,8 @@ MathJax.Hub.Queue(function() {
       
         
       
+      <li style="width: 100%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      
         
     </ul>
   </div>
@@ -391,6 +355,12 @@ MathJax.Hub.Queue(function() {
 
     
 
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;br/&gt; 技术栈：.net技术栈 &lt;br/&gt; 行业：汽车测试，诊断 &lt;br/&gt; 技能：.net客户端，web开发，项目管理 &lt;br/&gt; 语言：C#,C++,Matlab &lt;br/&gt; motto：越努力，越幸运</div>
+  	  	
+    	</section>
     
   </div>
   
